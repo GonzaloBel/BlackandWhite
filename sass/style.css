@@ -31,6 +31,12 @@ video {
 .Inicio {
   text-align: center;
 }
+.Inicio h1 {
+  animation: ease-in animation 1s;
+}
+.Inicio h2 {
+  animation: ease-in animation 1s;
+}
 
 footer .red-social {
   justify-content: center;
@@ -89,6 +95,15 @@ footer .red-social a {
 .flex-conteiner .flex-item img {
   width: 600px;
   height: 350px;
+  animation: ease-in animation 1s;
+}
+@keyframes animation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .Nosotros-1 {
@@ -175,6 +190,10 @@ footer .red-social a {
 .Vehiculosg .g30 img {
   width: 450px;
   height: 350px;
+  transition: 0.3s ease all;
+}
+.Vehiculosg .g30 img:hover {
+  transform: scale(1.07);
 }
 
 .Vehiculos-redes {
@@ -296,4 +315,4 @@ footer .red-social a {
     width: 350px;
     height: 250px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
