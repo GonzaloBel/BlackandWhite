@@ -30,6 +30,7 @@ video {
 
 .Inicio {
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 .Inicio h1 {
   animation: ease-in animation 1s;
@@ -54,11 +55,12 @@ footer .red-social a {
 
 .Servicios-1 {
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .Flex-Servicios {
   display: flex;
-  gap: 100px;
+  gap: 10em;
   justify-content: center;
 }
 
@@ -74,16 +76,17 @@ footer .red-social a {
 
 .Flex-g1 {
   display: flex;
-  gap: 150px;
+  gap: 15em;
   justify-content: center;
 }
 
 .g2 {
-  width: 300px;
+  width: 20em;
 }
 
 .Nosotros-2 {
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .flex-conteiner {
@@ -121,6 +124,7 @@ footer .red-social a {
   margin-left: auto;
   margin-right: auto;
   padding: 1.5em;
+  font-family: "Lato", sans-serif;
 }
 
 .logotipo {
@@ -130,13 +134,14 @@ footer .red-social a {
 
 .logotipo span {
   color: gold;
+  font-family: "Lato", sans-serif;
 }
 
 .contactanos-24hs {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
 }
 
-.contactanos-24hs > * {
+.contactanos-24hs {
   padding: 1em;
 }
 
@@ -176,6 +181,7 @@ footer .red-social a {
 .g9 {
   text-align: center;
   padding: 50px 0;
+  font-family: "Lato", sans-serif;
 }
 
 .Vehiculosg {
@@ -202,6 +208,7 @@ footer .red-social a {
 
 .Autosdelujo {
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .Autos-Conteiner {
@@ -228,6 +235,7 @@ footer .red-social a {
 
 .Avionesdelujo {
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .Aviones-Conteiner {
@@ -253,6 +261,7 @@ footer .red-social a {
 
 .Yatesdelujo {
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .Yates-Conteiner {

@@ -13,6 +13,7 @@ $DoradoBlackandWhite: rgba(255, 217, 0, 0.836);
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: black;
@@ -48,10 +49,6 @@ footer .red-social {
 }
 
 /*Media Queries*/
-/*Tablet*/
-@media only screen and (max-width: 768px) {
-}
-
 /*Mobile*/
 @media only screen and (max-width: 576px) {
   /*estilos generales*/

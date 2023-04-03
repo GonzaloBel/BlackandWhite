@@ -3,10 +3,10 @@ $estilovideo: (
   ancho: 100%,
   largo: 100%,
 );
-
+/*Inicio*/
 .Inicio {
   text-align: center;
-
+  font-family: "Lato", sans-serif;
   video {
     width: map-get($estilovideo, $ancho);
     height: map-get($estilovideo, $largo);
