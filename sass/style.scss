@@ -1,0 +1,94 @@
+@import "index";
+@import "servicios";
+@import "contactos";
+@import "nosotros";
+@import "Vehiculos";
+@import "autosdelujo";
+@import "avionesdelujo";
+@import "yatesdelujo";
+
+/*Variables*/
+$DoradoBlackandWhite: rgba(255, 217, 0, 0.836);
+/* Estilos Generales*/
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  background-color: $DoradoBlackandWhite;
+  .navbar-collapse {
+    justify-content: center;
+  }
+  .navbar-dark {
+    color: white;
+  }
+  .nav-link {
+    font-size: 1.3rem;
+    padding: 15px;
+    margin: 0 15px;
+  }
+}
+
+footer .red-social {
+  justify-content: center;
+  display: flex;
+  ul {
+    display: flex;
+  }
+  a {
+    color: $DoradoBlackandWhite;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+}
+
+/*Media Queries*/
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+}
+
+/*Mobile*/
+@media only screen and (max-width: 576px) {
+  /*estilos generales*/
+  .Flex-Servicios {
+    flex-direction: column;
+  }
+  .Flex-g1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex-conteiner {
+    flex-direction: column;
+  }
+  .Vehiculosg {
+    grid: none;
+  }
+  .Autos-Conteiner {
+    flex-direction: column;
+  }
+  .Autos-Conteiner .Autos1 img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .Aviones-Conteiner {
+    flex-direction: column;
+  }
+  .Aviones-Conteiner .Aviones1 img {
+    width: 350px;
+    height: 250px;
+  }
+  .Yates-Conteiner {
+    flex-direction: column;
+  }
+
+  .Yates-Conteiner .Galeria1 img {
+    width: 350px;
+    height: 250px;
+  }
+}

@@ -1,0 +1,26 @@
+/*mixin*/
+@mixin tamaños($width, $height) {
+  width: $width;
+  height: $heigth;
+}
+.Avionesdelujo {
+  text-align: center;
+  .Aviones-Conteiner {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+  }
+
+  .Aviones1 {
+    padding: 10px;
+    background-color: $DoradoBlackandWhited;
+    color: white;
+  }
+  img {
+    @include tamaños(600px, 350px);
+  }
+}

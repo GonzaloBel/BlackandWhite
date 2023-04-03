@@ -1,0 +1,19 @@
+.g9 {
+  text-align: center;
+  padding: 50px 0;
+  .Vehiculosg {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+  }
+  img {
+    width: 450px;
+    height: 350px;
+  }
+  .Vehiculos-redes {
+    text-align: center;
+  }
+}

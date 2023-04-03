@@ -1,0 +1,12 @@
+/*Map de estilos video*/
+$estilovideo: (
+  ancho: 100%,
+  largo: 100%,
+);
+.Inicio {
+  text-align: center;
+  video {
+    width: map-get($estilovideo, $ancho);
+    height: map-get($estilovideo, $largo);
+  }
+}

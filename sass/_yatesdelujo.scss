@@ -1,0 +1,25 @@
+/*mixin*/
+@mixin tamaños($width, $height) {
+  width: $width;
+  height: $heigth;
+}
+.Yatesdelujo {
+  text-align: center;
+  .Yates-Conteiner {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: start;
+  }
+  .Galeria1 {
+    padding: 10px;
+    background-color: $DoradoBlackandWhiteod;
+    color: white;
+  }
+  img {
+    @include tamaños(600px, 350px);
+  }
+}

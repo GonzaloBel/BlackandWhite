@@ -1,0 +1,50 @@
+.Contactos {
+  background: black;
+  color: white;
+  padding: 0 1.5em;
+  .contenido {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+  }
+  .logotipo {
+    text-align: center;
+    font-size: 3em;
+  }
+  .logotipo span {
+    color: gold;
+  }
+  .contactanos-24hs {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+    padding: 1em;
+  }
+  .formulario {
+    background: #222222;
+  }
+  .Contacto-info {
+    background: #000;
+    text-align: center;
+  }
+  .formulario form p {
+    margin: 0;
+    padding: 1em;
+  }
+  .formulario form button,
+  .formulario form input,
+  .formulario form textarea {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid gold;
+    color: white;
+  }
+  .formulario form button {
+    background: goldenrod;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+  }
+}

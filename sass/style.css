@@ -2,29 +2,32 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   background-color: black;
   color: white;
 }
+
 header {
   background-color: rgba(255, 217, 0, 0.836);
 }
-.nav-link {
+header .navbar-collapse {
+  justify-content: center;
+}
+header .navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+header .nav-link {
   font-size: 1.3rem;
   padding: 15px;
   margin: 0 15px;
-}
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-}
-.navbar-collapse {
-  justify-content: center;
 }
 
 video {
   width: 100%;
   height: 100%;
 }
+
 .Inicio {
   text-align: center;
 }
@@ -33,85 +36,104 @@ footer .red-social {
   justify-content: center;
   display: flex;
 }
-.red-social a {
+footer .red-social ul {
+  display: flex;
+}
+footer .red-social a {
   color: gold;
   padding: 30px;
   text-decoration: none;
   font-size: 1.3rem;
 }
-.red-social ul {
-  display: flex;
-}
+
 .Servicios-1 {
   text-align: center;
 }
+
 .Flex-Servicios {
   display: flex;
   gap: 100px;
   justify-content: center;
 }
+
 .Flex-Servicios .Flex-iservicios img {
   width: 600px;
   height: 350px;
 }
+
 .Flex-ServiciosY img {
   width: 600px;
   height: 350px;
 }
+
 .Flex-g1 {
   display: flex;
   gap: 150px;
   justify-content: center;
 }
+
 .g2 {
   width: 300px;
 }
+
 .Nosotros-2 {
   text-align: center;
 }
+
 .flex-conteiner {
   display: flex;
   gap: 20px;
   justify-content: center;
 }
+
 .flex-conteiner .flex-item img {
   width: 600px;
   height: 350px;
 }
+
 .Nosotros-1 {
   text-align: center;
 }
+
 .Contactos {
   background: black;
   color: white;
   padding: 0 1.5em;
 }
+
 .contenido {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding: 1.5em;
 }
+
 .logotipo {
   text-align: center;
   font-size: 3em;
 }
+
 .logotipo span {
   color: gold;
 }
+
 .contactanos-24hs {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
 }
+
 .contactanos-24hs > * {
   padding: 1em;
 }
+
 .formulario {
   background: #222222;
 }
+
 .Contacto-info {
   background: #000;
   text-align: center;
 }
+
 .formulario form p {
   margin: 0;
   padding: 1em;
@@ -128,16 +150,19 @@ footer .red-social {
   border-bottom: 1px solid gold;
   color: white;
 }
+
 .formulario form button {
   background: goldenrod;
   border: 0;
   text-transform: uppercase;
   padding: 1em;
 }
+
 .g9 {
   text-align: center;
   padding: 50px 0;
 }
+
 .Vehiculosg {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -146,16 +171,20 @@ footer .red-social {
   justify-content: center;
   text-align: center;
 }
+
 .Vehiculosg .g30 img {
   width: 450px;
   height: 350px;
 }
+
 .Vehiculos-redes {
   text-align: center;
 }
+
 .Autosdelujo {
   text-align: center;
 }
+
 .Autos-Conteiner {
   display: flex;
   padding: 10px;
@@ -165,16 +194,19 @@ footer .red-social {
   align-items: center;
   justify-items: start;
 }
+
 .Autos-Conteiner .Autos1 {
   padding: 10px;
   background-color: goldenrod;
   color: white;
   text-align: center;
 }
+
 .Autos-Conteiner .Autos1 img {
   width: 600px;
   height: 350px;
 }
+
 .Avionesdelujo {
   text-align: center;
 }
@@ -188,18 +220,22 @@ footer .red-social {
   align-items: center;
   justify-items: start;
 }
+
 .Aviones-Conteiner .Aviones1 {
   padding: 10px;
   background-color: goldenrod;
   color: white;
 }
+
 .Aviones-Conteiner .Aviones1 img {
   width: 600px;
   height: 350px;
 }
+
 .Yatesdelujo {
   text-align: center;
 }
+
 .Yates-Conteiner {
   display: flex;
   padding: 10px;
@@ -209,20 +245,20 @@ footer .red-social {
   align-items: center;
   justify-items: start;
 }
+
 .Yates-Conteiner .Galeria1 {
   padding: 10px;
   background-color: goldenrod;
   color: white;
 }
+
 .Yates-Conteiner .Galeria1 img {
   width: 600px;
   height: 350px;
 }
+
 /*Media Queries*/
 /*Tablet*/
-@media only screen and (max-width: 768px) {
-}
-
 /*Mobile*/
 @media only screen and (max-width: 576px) {
   /*estilos generales*/
@@ -246,7 +282,6 @@ footer .red-social {
     width: 350px;
     height: 250px;
   }
-
   .Aviones-Conteiner {
     flex-direction: column;
   }
@@ -257,9 +292,8 @@ footer .red-social {
   .Yates-Conteiner {
     flex-direction: column;
   }
-
   .Yates-Conteiner .Galeria1 img {
     width: 350px;
     height: 250px;
   }
-}
+}/*# sourceMappingURL=style.css.map */
