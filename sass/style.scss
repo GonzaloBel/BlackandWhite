@@ -49,6 +49,45 @@ footer .red-social {
 }
 
 /*Media Queries*/
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+  .Flex-Servicios {
+    flex-direction: column;
+  }
+  .Flex-g1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex-conteiner {
+    flex-direction: column;
+  }
+  .Vehiculosg {
+    grid: none;
+  }
+  .Autos-Conteiner {
+    flex-direction: column;
+  }
+  .Autos-Conteiner .Autos1 img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .Aviones-Conteiner {
+    flex-direction: column;
+  }
+  .Aviones-Conteiner .Aviones1 img {
+    width: 350px;
+    height: 250px;
+  }
+  .Yates-Conteiner {
+    flex-direction: column;
+  }
+
+  .Yates-Conteiner .Galeria1 img {
+    width: 350px;
+    height: 250px;
+  }
+}
 /*Mobile*/
 @media only screen and (max-width: 576px) {
   /*estilos generales*/
