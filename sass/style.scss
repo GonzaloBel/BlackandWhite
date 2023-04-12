@@ -54,9 +54,18 @@ footer .red-social {
   .Flex-Servicios {
     flex-direction: column;
   }
+  .Flex-Servicios .Flex-iservicios img {
+    width: 30em;
+  }
+  .Flex-iservicios img {
+    width: 30em;
+  }
   .Flex-g1 {
     flex-direction: column;
     align-items: center;
+  }
+  .flex-conteiner .flex-item img {
+    width: 30em;
   }
   .flex-conteiner {
     flex-direction: column;
@@ -71,7 +80,6 @@ footer .red-social {
     width: 350px;
     height: 250px;
   }
-
   .Aviones-Conteiner {
     flex-direction: column;
   }
@@ -82,10 +90,12 @@ footer .red-social {
   .Yates-Conteiner {
     flex-direction: column;
   }
-
   .Yates-Conteiner .Galeria1 img {
     width: 350px;
     height: 250px;
+  }
+  footer .red-social a {
+    font-size: 1rem;
   }
 }
 /*Mobile*/
@@ -94,9 +104,18 @@ footer .red-social {
   .Flex-Servicios {
     flex-direction: column;
   }
+  .Flex-Servicios .Flex-iservicios img {
+    width: 30em;
+  }
+  .Flex-iservicios img {
+    width: 30em;
+  }
   .Flex-g1 {
     flex-direction: column;
     align-items: center;
+  }
+  .flex-conteiner .flex-item img {
+    width: 30em;
   }
   .flex-conteiner {
     flex-direction: column;
@@ -111,7 +130,6 @@ footer .red-social {
     width: 350px;
     height: 250px;
   }
-
   .Aviones-Conteiner {
     flex-direction: column;
   }
@@ -122,9 +140,11 @@ footer .red-social {
   .Yates-Conteiner {
     flex-direction: column;
   }
-
   .Yates-Conteiner .Galeria1 img {
     width: 350px;
     height: 250px;
+  }
+  footer .red-social a {
+    font-size: 1rem;
   }
 }
