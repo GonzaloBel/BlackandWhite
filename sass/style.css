@@ -32,12 +32,6 @@ video {
   text-align: center;
   font-family: "Lato", sans-serif;
 }
-.Inicio h1 {
-  animation: ease-in animation 1s;
-}
-.Inicio h2 {
-  animation: ease-in animation 1s;
-}
 
 footer .red-social {
   justify-content: center;
@@ -99,14 +93,6 @@ footer .red-social a {
   width: 600px;
   height: 350px;
   animation: ease-in animation 1s;
-}
-@keyframes animation {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 
 .Nosotros-1 {
